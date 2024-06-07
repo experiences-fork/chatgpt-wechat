@@ -21,6 +21,7 @@ const ChatModel1106 = "gpt-3.5-turbo-1106"
 const ChatModel16K = "gpt-3.5-turbo-16k"
 const ChatModel16K0613 = "gpt-3.5-turbo-16k-0613"
 const ChatModel4 = "gpt-4"
+const ChatModel4o = "gpt-4o"
 const ChatModel40314 = "gpt-4-0314"
 const ChatModel40613 = "gpt-4-0613"
 const ChatModel432K = "gpt-4-32k"
@@ -40,6 +41,7 @@ var Models = map[string]bool{
 	ChatModel16K:            true,
 	ChatModel16K0613:        true,
 	ChatModel4:              true,
+	ChatModel4o:             true,
 	ChatModel40314:          true,
 	ChatModel40613:          true,
 	ChatModel432K:           true,
